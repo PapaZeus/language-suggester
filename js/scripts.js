@@ -22,13 +22,13 @@ $(document).ready(function() {
 
     }
 
-    if (languagechoice === 'c#' && 'c#' && 'c#' && 'c#' && 'c#') {
+    if (languagechoice === 'ruby' && 'ruby' && 'ruby' && 'ruby' && 'ruby') {
 
-    $("#languagepic").append("<img src=" + piccsharp + ">");
-    $("#language").empty().append("C#");
+    $("#languagepic").append("<img src=" + picruby + ">");
+    $("#language").empty().append("Ruby");
     $("#result").show();
 
-    } 
+    }
 
     event.preventDefault();
   });
