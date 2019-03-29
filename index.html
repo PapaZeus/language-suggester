@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title> Language Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id="title">
+        <h1>Which language is your soulmate !??</h1>
+        <h3>
+          Welcome to our Language Suggester ! Hope you enjoy it!
+        </h3>
+      </div>
+      <h3>Would you like a sense of direction as to which coding language to start with? Find yourself struggling to pick? Then try our Language Suggester TODAY!! Don't wait!</h3> <br>
+      <p>To give you a suggestion, we need to know a little about your interests. Below we have a few questions designed to send you in the right direction. Just fill out our quick servey and get your results instantly!</p>
+
+      <form id="languagematch">
+        <label for="age">Age</label>
+        <input id="age" type="text"> <br><br>
+
+
+        <label for="languagechoice">Which appeals to you more?</label>
+        <select id="languagechoice">
+          <option value="c#">Bigger more established companies</option>
+          <option value="java">Enterprise-level companies</option>
+          <option value="ruby">Web application companies</option>
+        </select> <br><br>
+
+        <label for="languagechoice">Which do you enjoy more?</label>
+        <select id="languagechoice">
+          <option value="c#">Building internal software</option>
+          <option value="java">Building android user interfaces</option>
+          <option value="ruby">Building interactive web applications</option>
+          </select> <br><br>
+
+        <label for="languagechoice">Which seems like your speed?</label>
+        <select id="languagechoice">
+          <option value="java">Front-end</option>
+          <option value="ruby">Back-end</option>
+          <option value="c#">Like both</option>
+        </select> <br><br>
+
+        <label for="languagechoice">Which sounds more like you?</label>
+        <select id="languagechoice">
+          <option value="java">Deep thinker</option>
+          <option value="c#">In-between"er"</option>
+          <option value="ruby">Simplistic, easy on the eyes</option>
+        </select><br><br>
+
+        <label for="languagechoice">Which applies to you more?</label>
+        <select id="languagechoice">
+          <option value="java">Set in your ways</option>
+          <option value="c#">Open-minded</option>
+          <option value="ruby">Do it your way</option>
+        </select> <br><br>
+
+
+        <button type="submit" class="btn">Find my language soulmate !!! </button>
+      </form>
+      <div id="matchpic">
+      </div>
+      <div id="result">
+        <p>Your language is <span id="language"></span>!! I hope you will have a good life together! </p>
+      </div>
+    </div>
+  </body>
+</html>
